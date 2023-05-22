@@ -1,4 +1,4 @@
-import Card from "./components.principal/card"
+import Card from "./Card"
 import foto_manu from '../../../public/img/foto_manu.jpg'
 
 
