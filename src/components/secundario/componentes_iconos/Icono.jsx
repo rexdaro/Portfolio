@@ -1,7 +1,7 @@
-function Icono({icono, descripcion, claseImg="icono", claseParrafo="parrafo_de_icono"}) {
+function Icono({icono, descripcion, claseDiv="div_icono_parrafo", claseImg="icono", claseParrafo="parrafo_de_icono"}) {
 
     return (
-        <div className="div_icono_parrafo">            
+        <div className={claseDiv}>            
             < img className={claseImg} src={icono} alt='css3' />
             <p className={claseParrafo}>{descripcion}</p>
         </ div>
@@ -10,3 +10,6 @@ function Icono({icono, descripcion, claseImg="icono", claseParrafo="parrafo_de_i
   }
   
   export default Icono
+
+
+
