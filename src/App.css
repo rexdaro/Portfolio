@@ -1,0 +1,280 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,700&display=swap');
+
+*{
+    scroll-behavior: smooth;
+}
+
+.barra{ 
+    background-color: #303338;
+    padding: 0.5rem;
+    display: flex;
+    box-shadow: 0px 2px 27px rgba(0, 0, 0, 1.2);
+    height: 3rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* codigo de abajo es para que la barra quede fija */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+
+
+}
+
+.div_barra{
+    
+    padding: 0.5rem;
+    display: flex;
+   
+    height: 3rem;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    /* codigo de abajo es para que la barra quede fija */
+    
+ 
+}
+
+.boton_principal{
+    text-decoration: none;
+    color: inherit;
+    font-size: 2rem;
+    transition: 0.3s;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+    min-width: 14rem;
+    font-weight: 600;
+    color: #00f3ff;
+    
+}
+
+.boton_principal:hover{
+    transform: scale(1.03);
+    text-shadow: 0 0 10px rgba(0, 217, 255, 0.507)
+}
+
+.boton_menu{
+    padding: 0.8rem;
+    text-decoration: none;
+    color: inherit;
+    /* font-size: 0.7rem; */
+    margin-right: 10px;
+    font-size: 1.4rem;
+    transition: 0.2s;
+    border-radius: 15px;
+    font-family: 'poppins', sans-serif;
+    color: #BEC3C9;
+    font-weight: 100;
+}
+
+.boton_menu:hover{
+    background-color: rgba(255, 255, 255, 0.116);
+}
+
+
+/* componente principal cambios */
+
+.div_componentePrincipal{
+    background-color: #303338;
+    margin: 6rem 1rem;
+    padding: 0.5rem;
+    border-radius: 15px;
+    
+
+    height: calc(100vh - 8rem);
+    display: flex;
+    justify-content: center;
+    scroll-margin-top: 6rem;
+}
+
+.div_card {
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;  
+    width: 50%;
+}
+
+.div_img_manu{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;  
+    width: 30%;
+    align-items: center;
+}
+
+.animacion_imagen_manu{
+    background: linear-gradient(to right, rgb(22, 38, 182), rgba(255, 255, 255, 0)),
+                linear-gradient(to right, rgba(255, 255, 255, 0), rgba(128, 128, 128, 0));
+    background-blend-mode: overlay;
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 100%;
+    animation: girar 2s infinite linear;
+    transition: 4s;
+}
+
+.animacion_imagen_manu:hover{
+    
+    background: linear-gradient(to right, rgb(0, 107, 207), rgba(255, 255, 255, 0)),
+        linear-gradient(to right, rgba(255, 255, 255, 0), rgba(128, 128, 128, 0));
+    background-blend-mode: overlay;
+}
+
+@keyframes girar {
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+}
+
+
+
+.img_manu{
+        
+    width: 93%;
+    border-radius: 100%;
+    animation: nogirar 2s infinite linear;
+}
+
+@keyframes nogirar {
+    0% {
+        transform: rotate(-0deg);
+      }
+      100% {
+        transform: rotate(-360deg);
+      }
+}
+
+/* modificaciones para los componentes secundarios */
+.div_componenteSecundario{
+    background-color: #303338;
+    margin: 6rem 1rem;
+    padding: 0.5rem;
+    border-radius: 15px;
+    scroll-margin-top: 6rem;
+    height: calc(70vh - 8rem);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.div_componenteSecundario_oscuro{
+    
+    margin: 6rem 1rem;
+    padding: 0.5rem;
+    border-radius: 15px;
+    scroll-margin-top: 6rem;
+    height: calc(70vh - 8rem);
+    display: flex;    
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+
+.titulo_secundario{
+    display: flex;    
+    width: 100%;
+    justify-content: center;
+    height: 5rem;    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3.5vh;
+}
+
+.titulos_principales{
+    margin-left: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 4vh;
+}
+
+.div_padre_sobreMi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_sobreMi{
+    
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: justify;
+    margin-top: 2rem;
+}
+
+.parrafo_sobreMi{    
+    margin-top: 1rem;    
+    margin-left: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vh;
+    
+
+}
+
+.programador_animado{
+    width: 45vh;
+    
+}
+
+
+/* por aca vamos a hacer la parte de habilidades */
+
+.div_iconos{
+    
+    display: flex;    
+    flex-wrap: wrap;    
+    justify-content: center;
+}
+
+.div_icono_parrafo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.6;
+    transition: 0.2s;  
+    margin: 1rem;  
+    filter: grayscale(1);
+}
+
+.div_icono_parrafo:hover{
+    opacity: 1;
+    transform: scale(1.15);   
+    filter: grayscale(0); 
+}
+
+.icono{    
+    width: 8vh;
+}
+
+.parrafo_de_icono{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* diseño de la parte de formacion */
+
+.img_formacion{
+    width: 30vh;
+    border-radius: 15px;
+}
+
+.parrafo_img_formacion{
+    font-size: 18px;
+
+}
