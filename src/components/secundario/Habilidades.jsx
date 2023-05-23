@@ -17,7 +17,7 @@ import Icono from './componentes_iconos/Icono'
 function Habilidades({clase}) {
 
     return (
-        <>
+        <div className='container_div_iconos'>
             <div className="div_iconos">
                 <Icono icono={html} descripcion={'HTML'}/>
                 <Icono icono={css3} descripcion={'CSS3'}/>
@@ -35,7 +35,7 @@ function Habilidades({clase}) {
                 <Icono icono={figma} descripcion={'Figma'}/>
             </div>   
             
-        </>
+        </ div>
       
     )
   }

@@ -84,8 +84,6 @@
     margin: 6rem 1rem;
     padding: 0.5rem;
     border-radius: 15px;
-    
-
     height: calc(100vh - 8rem);
     display: flex;
     justify-content: center;
@@ -162,7 +160,7 @@
     padding: 0.5rem;
     border-radius: 15px;
     scroll-margin-top: 6rem;
-    height: calc(70vh - 8rem);
+    /* height: calc(70vh - 8rem); */
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -177,7 +175,7 @@
     padding: 0.5rem;
     border-radius: 15px;
     scroll-margin-top: 6rem;
-    height: calc(70vh - 8rem);
+    /* height: calc(70vh - 8rem); */
     display: flex;    
     flex-direction: column;
     flex-wrap: nowrap;
@@ -186,13 +184,14 @@
 }
 
 .titulo_secundario{
-    display: flex;    
+    display: flex;
     width: 100%;
     justify-content: center;
-    height: 5rem;    
+    /* height: 4rem; */
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 3.5vh;
+    margin: 2rem 0rem;
 }
 
 .titulos_principales{
@@ -206,6 +205,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 2rem;
 }
 
 .div_sobreMi{
@@ -234,11 +234,15 @@
 
 /* por aca vamos a hacer la parte de habilidades */
 
+
+
+
 .div_iconos{
     
     display: flex;    
     flex-wrap: wrap;    
     justify-content: center;
+    margin: 3rem 0rem;
 }
 
 .div_icono_parrafo{
