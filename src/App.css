@@ -88,6 +88,17 @@
     display: flex;
     justify-content: center;
     scroll-margin-top: 6rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container_info_principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    width: 50%;
+    
 }
 
 .div_card {
@@ -100,9 +111,9 @@
 .div_img_manu{
     display: flex;  
     flex-direction: column;
-    justify-content: center;  
-    width: 30%;
+    justify-content: center;      
     align-items: center;
+    width: 23rem;
 }
 
 .animacion_imagen_manu{
@@ -154,6 +165,41 @@
         transform: rotate(-360deg);
       }
 }
+
+
+/* descarga de curriculum */ 
+
+.div_download{
+    width: 11rem;
+    height: 2rem;
+    background-color: #ffffff7e;
+    display: flex;
+    color: #1C1E21;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    transition: 0.3s;
+}
+
+.div_download:hover{
+    background-color: #00f3ff;
+    transform: scale(1.05);
+    
+}
+
+.div_download img{
+    height: 1.3rem;
+    margin: 0 0.5rem;
+}
+
+.div_download a{
+    text-decoration: none;
+    color: #1C1E21;
+}
+
 
 /* modificaciones para los componentes secundarios */
 .div_componenteSecundario{
@@ -548,9 +594,8 @@
 
 .div_contacto{
     
-    display: flex;
-    height: 50vh;
-    min-height: 30rem;
+    display: flex;    
+    min-height: 30rem;    
     flex-direction: column;
     border-bottom: 1px solid;
     border-color: #818181;
@@ -618,12 +663,13 @@
     margin: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
 }
 
-.footer h5{
-    margin: 1rem;
-    
+.footer h5{        
     font-size: 1rem;
+    color: rgba(255, 255, 255, 0.562);
 }
 
 .iconos_footer{

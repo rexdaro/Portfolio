@@ -5,9 +5,6 @@ import linkedin from '../../../public/icon/linkedinBlanco.svg'
 import whatsapp from '../../../public/icon/whatsapp.svg'
 import gmail from '../../../public/icon/mailCuadradoBlanco_ico.svg'
 import instagram from '../../../public/icon/instagram.svg'
-import facebook from '../../../public/icon/facebook.svg'
-import youtube from '../../../public/icon/youtube.svg'
-import twitch from '../../../public/icon/twitch.svg'
 import cv from '../../../public/icon/cv.svg'
 
 import Icono from './componentes_iconos/Icono'
@@ -24,6 +21,7 @@ function Contacto({clase}) {
                     </div>
                     <h4>¿Quieres contactar conmigo?</h4>
                     <h5>¡Hablemos!</h5>
+                    <p>E-Mail: rexdaro@gmail.com</p>
 
                     <div className='div_boton'>
                         <a className='boton_enviar' href="https://mail.google.com/mail/?view=cm&to=rexdaro@gmail.com" target="_blank">
@@ -39,7 +37,7 @@ function Contacto({clase}) {
             </div>
             <div className='footer'>
 
-                <h5>Copyright  | Coded with  by Manuel Rivas</h5>
+                <h5>Copyright &copy; | &hearts; Coded with  by <strong>Manuel Rivas</strong></h5>
 
 
                 <div className='iconos_footer'>

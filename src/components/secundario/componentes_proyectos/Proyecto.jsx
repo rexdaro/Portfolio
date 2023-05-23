@@ -47,8 +47,8 @@ function Proyecto({imagen, descripcion, claseImg="icono", claseParrafo="parrafo_
                             <img src={gitHubIco} alt="GitHub" />
                         </div>
                         <div>
-                            <a href={linkPagina}>Demo</a>
-                            <a href={linkGitHub}>GitHub</a>
+                            <a href={linkPagina} target="_blank">Demo</a>
+                            <a href={linkGitHub} target="_blank">GitHub</a>
                         </div>
                         
                     </div>

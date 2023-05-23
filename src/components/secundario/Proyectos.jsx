@@ -55,8 +55,8 @@ function Proyectos({clase}) {
                 imagen={encriptador} 
                 descripcion={'Encriptador'}
                 sobreProyecto={'Creé un encriptador usando HTML, CSS y JavaScript, mejorando mis habilidades de programación y seguridad de datos al implementar algoritmos de cifrado. Fortalecí mis conocimientos técnicos y comprensión de la seguridad de la información.'}
-                linkPagina={'https://playerzone.netlify.app/'}
-                linkGitHub={'https://github.com/Juliorivasz/PlayerZone'}
+                linkPagina={'https://rexdaro.github.io/encriptador/'}
+                linkGitHub={'https://github.com/rexdaro/encriptador'}
                 tecnologia1={<Icono claseDiv='div_icono_proyecto' claseImg="icono_proyecto" icono={html} descripcion={'HTML'}/>}
                 tecnologia2={<Icono claseDiv='div_icono_proyecto' claseImg="icono_proyecto" icono={css3} descripcion={'CSS3'}/>}
                 tecnologia3={<Icono claseDiv='div_icono_proyecto' claseImg="icono_proyecto" icono={js} descripcion={'JavaScript'}/>}              
@@ -68,8 +68,8 @@ function Proyectos({clase}) {
                 imagen={cartas} 
                 descripcion={'BlackJack'}
                 sobreProyecto={'Creé un juego de Blackjack usando HTML, CSS y JavaScript, donde aprendí sobre arrays, objetos y desestructuración. Fue una valiosa experiencia para mejorar mis habilidades de programación y comprender mejor la lógica y manipulación de datos.'}
-                linkPagina={'https://playerzone.netlify.app/'}
-                linkGitHub={'https://github.com/Juliorivasz/PlayerZone'}
+                linkPagina={'https://rexdaro.github.io/juegoDeBlackJack/'}
+                linkGitHub={'https://github.com/rexdaro/juegoDeBlackJack'}
                 tecnologia1={<Icono claseDiv='div_icono_proyecto' claseImg="icono_proyecto" icono={bootstrap} descripcion={'Bootstrap'}/>}
                 tecnologia2={<Icono claseDiv='div_icono_proyecto' claseImg="icono_proyecto" icono={css3} descripcion={'CSS3'}/>}
                 tecnologia3={<Icono claseDiv='div_icono_proyecto' claseImg="icono_proyecto" icono={js} descripcion={'JavaScript'}/>}              
@@ -81,8 +81,8 @@ function Proyectos({clase}) {
                 imagen={portfolio} 
                 descripcion={'Portfolio'}
                 sobreProyecto={'Desarrollé mi portfolio utilizando React, aprendiendo sobre JSX, useState, useEffect y otros hooks. Integré HTML, CSS y JS para crear un sitio dinámico y funcional. Una forma efectiva de mostrar mis proyectos y habilidades.'}
-                linkPagina={'https://playerzone.netlify.app/'}
-                linkGitHub={'https://github.com/Juliorivasz/PlayerZone'}
+                linkPagina={'https://manuel-rivas-frontend-developer.netlify.app/'}
+                linkGitHub={'https://github.com/rexdaro/Portfolio'}
                 tecnologia1={<Icono claseDiv='div_icono_proyecto' claseImg="icono_proyecto" icono={js} descripcion={'JavaScript'}/>}
                 tecnologia2={<Icono claseDiv='div_icono_proyecto' claseImg="icono_proyecto" icono={css3} descripcion={'CSS3'}/>}
                 tecnologia3={<Icono claseDiv='div_icono_proyecto' claseImg="icono_proyecto" icono={react} descripcion={'React'}/>}              
