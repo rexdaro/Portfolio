@@ -292,8 +292,7 @@
     
     position: absolute;
     width: 30vh;
-    height: 0vh;
-    z-index: 12;
+    height: 0vh;    
     transition: 0.3s;
     display: flex;
     justify-content: center;
@@ -461,9 +460,67 @@
 
 
 
-/* footer */
+/* footer ---------------------------------------------*/
+/* footer ---------------------------------------------*/
 
 
+
+.animacion_imagen_manu_footer{
+    background: linear-gradient(to right, rgb(22, 38, 182), rgba(255, 255, 255, 0)),
+                linear-gradient(to right, rgba(255, 255, 255, 0), rgba(128, 128, 128, 0));
+    background-blend-mode: overlay;
+    width: 14vw;
+    height: 14vw;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 100%;
+    animation: girar 2s infinite linear;
+    transition: 4s;
+}
+
+.animacion_imagen_manu_footer:hover{
+    
+    background: linear-gradient(to right, rgb(0, 107, 207), rgba(255, 255, 255, 0)),
+        linear-gradient(to right, rgba(255, 255, 255, 0), rgba(128, 128, 128, 0));
+    background-blend-mode: overlay;
+}
+
+@keyframes girar {
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+}
+
+
+
+.img_manu_footer{
+        
+    width: 90%;
+    border-radius: 100%;
+    animation: nogirar 2s infinite linear;
+}
+
+@keyframes nogirar {
+    0% {
+        transform: rotate(-0deg);
+      }
+      100% {
+        transform: rotate(-360deg);
+      }
+}
+
+
+
+
+
+
+
+
+/* todo lo de arriba tiene que ver con la animacion y el diseño de mi imagen en contacto */
 
 
 .div_componenteSecundario_oscuro_footer{
@@ -492,20 +549,63 @@
     flex-direction: column;
     border-bottom: 1px solid;
     border-color: #818181;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
 }
+
+.div_contacto h4{    
+    margin: 1rem;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.div_contacto h5{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+
+.div_boton{    
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
 .boton_enviar{
     display: flex;
-    background-color: red;
-    width: 100%;
+    background-color:#303338;
     height: 4rem;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 2rem;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.boton_enviar:hover{
+    color: #1C1E21;
+    transform: scale(1.1);
+    background-color: #818181;
+    box-shadow: 0px 2px 27px rgba(0, 0, 0, 1.2);
 }
 
 .boton_enviar h2{
     display: flex;
-    align-items: center;
+    align-items: center;    
+    text-decoration: none;
+    
     
 }
 
 .ico_mail{
     height: 100%;
+    
 }
+
+
+
+

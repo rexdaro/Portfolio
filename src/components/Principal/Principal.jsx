@@ -10,7 +10,7 @@ function Principal() {
           <Card clase={'div_card'}/> 
           <div className="div_img_manu">
             <div className="animacion_imagen_manu">
-            <img src={foto_manu} alt="Manuel Rivas" className="img_manu"></img>
+              <img src={foto_manu} alt="Manuel Rivas" className="img_manu"></img>
             </div>
           </div>
             
