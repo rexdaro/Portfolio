@@ -111,6 +111,8 @@
     background-blend-mode: overlay;
     width: 25vw;
     height: 25vw;
+    min-width: 12rem;
+    min-height: 12rem;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -466,11 +468,13 @@
 
 
 .animacion_imagen_manu_footer{
-    background: linear-gradient(to right, rgb(22, 38, 182), rgba(255, 255, 255, 0)),
+    background: linear-gradient(to right, rgb(145, 95, 75), rgba(255, 255, 255, 0)),
                 linear-gradient(to right, rgba(255, 255, 255, 0), rgba(128, 128, 128, 0));
     background-blend-mode: overlay;
     width: 14vw;
     height: 14vw;
+    min-width: 10rem;
+    min-height: 10rem;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -481,7 +485,7 @@
 
 .animacion_imagen_manu_footer:hover{
     
-    background: linear-gradient(to right, rgb(0, 107, 207), rgba(255, 255, 255, 0)),
+    background: linear-gradient(to right, rgb(187, 75, 23), rgba(255, 255, 255, 0)),
         linear-gradient(to right, rgba(255, 255, 255, 0), rgba(128, 128, 128, 0));
     background-blend-mode: overlay;
 }
@@ -546,11 +550,13 @@
     
     display: flex;
     height: 50vh;
+    min-height: 30rem;
     flex-direction: column;
     border-bottom: 1px solid;
     border-color: #818181;
     align-items: center;
     font-family: 'Poppins', sans-serif;
+    padding: 3rem;
 
 }
 
@@ -608,4 +614,24 @@
 
 
 
+.footer{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h5{
+    margin: 1rem;
+    
+    font-size: 1rem;
+}
+
+.iconos_footer{
+display: flex;
+flex-direction: row;
+}
+
+.img_icono_footer{
+    width: 3rem;
+}
 
