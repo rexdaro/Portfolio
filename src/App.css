@@ -703,8 +703,9 @@
 }
 
 .iconos_footer{
-display: flex;
-flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .img_icono_footer{
@@ -734,7 +735,7 @@ flex-direction: row;
     .div_barra_oculto{
         display: none;
     }
-    
+
     .div_barra {
         position: absolute;
         padding: 0;
