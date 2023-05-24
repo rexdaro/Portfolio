@@ -740,9 +740,9 @@
         position: absolute;
         padding: 0;
         flex-direction: column;
-        height: 90vh;
+        height: 93vh;
         width: 100vw;
-        top: 6rem;
+        top: 4.5rem;
         background-color: #303338;
         display: flex;
     }
@@ -778,5 +778,34 @@
         
         margin: 10rem 1rem;
         
+    }
+
+    .container_info_principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .div_card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .div_padre_sobreMi {
+        display: flex;
+        align-items: center;
+        justify-content: center;        
+        flex-wrap: wrap;
+    }
+
+    .div_sobreMi {
+        display: flex;
+        flex-direction: column;       
+        text-align: justify;     
+        width: 100%;  
     }
 }
