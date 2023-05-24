@@ -26,6 +26,12 @@
 
 }
 
+
+
+.barra a img, .barra img{
+    display: none;
+}
+
 .div_barra{
     
     padding: 0.5rem;
@@ -301,6 +307,7 @@
     transition: 0.2s;  
     margin: 1rem;  
     filter: grayscale(0.8);
+   
 }
 
 .div_icono_parrafo:hover{
@@ -322,7 +329,7 @@
 /* diseño de la parte de formacion */
 
 .img_formacion{
-    width: 30vh;
+    width: 100%;
     border-radius: 15px;
 }
 
@@ -331,6 +338,26 @@
 
 }
 
+/* formaicon .iconos */
+
+
+.container_div_formacion_iconos{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.container_div_formacion_iconos_dentro{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.div_formacion_iconos{
+    width: 20rem;
+    display: flex;
+}
 
 /* proyectos */
 
@@ -339,7 +366,7 @@
     
     
     position: absolute;
-    width: 30vh;
+    width: 20rem;
     height: 0vh;    
     transition: 0.3s;
     display: flex;
@@ -356,6 +383,8 @@
     align-items: center;    
     transition: 0.2s;  
     margin: 1rem;  
+    width: 20rem;
+    height: 20rem;
     
 }
 
@@ -368,8 +397,8 @@
 
 .div_info_proyecto{
     font-family: 'Poppins', sans-serif;
-    width: 30vh;
-    height: 30vh;
+    width: 20rem;
+    height: 20rem;
     text-align: justify;
     position: absolute;
     border-radius: 15px;
@@ -409,7 +438,7 @@
 }
 
 .info_proyecto{
-    font-size: 0.688rem;    
+    font-size: .75rem;
     height: 36%;
     text-align: justify;
     margin-top: 13%;
@@ -602,6 +631,7 @@
     align-items: center;
     font-family: 'Poppins', sans-serif;
     padding: 3rem;
+    text-align: center;
 
 }
 
@@ -681,3 +711,71 @@ flex-direction: row;
     width: 3rem;
 }
 
+
+/* ---------------------------ACA COMENZAMOS A HACERLO RESPONSIVO------------------------------- */
+
+@media (max-width: 1024px) {
+    .barra{ 
+        
+        display: flex;
+        height: 10%;
+        padding: 0;
+        width: 100vw;
+        justify-content: space-around;
+    }
+
+    .barra a img, .barra img{
+        display: flex;        
+        width: 3rem;
+        opacity: calc(60%);
+    }
+    
+
+    .div_barra_oculto{
+        display: none;
+    }
+    
+    .div_barra {
+        position: absolute;
+        padding: 0;
+        flex-direction: column;
+        height: 90vh;
+        width: 100vw;
+        top: 6rem;
+        background-color: #303338;
+        display: flex;
+    }
+
+    
+
+    .boton_principal{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 3rem;
+        display:none;
+        
+    }
+
+    .boton_menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0;
+        font-size: 2.5rem;
+    }
+
+
+
+
+
+
+
+
+    
+    .div_componentePrincipal {
+        
+        margin: 10rem 1rem;
+        
+    }
+}

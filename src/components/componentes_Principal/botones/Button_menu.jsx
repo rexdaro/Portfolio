@@ -1,10 +1,17 @@
-function Button_menu({text, enlace, clase}) {
+import React from "react";
 
-    return (
-      <a className={clase} href={enlace}>
+function Button_menu({ text, enlace, clase, onClick }) {
+  const handleClick = () => {
+    if (onClick) {
+      onClick(); // Llama a la función onClick proporcionada
+    }
+  };
+
+  return (
+    <a className={clase} href={enlace} onClick={handleClick}>
       <p>{text}</p>
-      </ a>
-    )
-  }
-  
-  export default Button_menu
+    </a>
+  );
+}
+
+export default Button_menu;
