@@ -743,14 +743,13 @@
         position: absolute;
         padding: 0;
         flex-direction: column;
-        height: 42rem;
+        height: 80vh;
         width: 100vw;
-        top: 4.6rem;
+        top: 9vh;
         /* background-color: #303338; */
         display: flex;
         justify-content: space-evenly;
         background-image: linear-gradient(to bottom, rgba(48, 51, 56, 0.993) 95%, rgba(48, 51, 56, 0) );
-
     }
 
     .div_barra_oculto{
