@@ -46,6 +46,17 @@
  
 }
 
+.div_barra_oculto{
+    padding: 0.5rem;
+    display: flex;
+   
+    height: 3rem;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    /* codigo de abajo es para que la barra quede fija */
+}
+
 .boton_principal{
     text-decoration: none;
     color: inherit;
@@ -593,12 +604,6 @@
 }
 
 
-
-
-
-
-
-
 /* todo lo de arriba tiene que ver con la animacion y el diseño de mi imagen en contacto */
 
 
@@ -732,9 +737,7 @@
     }
     
 
-    .div_barra_oculto{
-        display: none;
-    }
+    
 
     .div_barra {
         position: absolute;
@@ -742,9 +745,14 @@
         flex-direction: column;
         height: 93vh;
         width: 100vw;
-        top: 4.5rem;
+        top: 4.7rem;
         background-color: #303338;
         display: flex;
+        justify-content: space-evenly;
+    }
+
+    .div_barra_oculto{
+        display: none;
     }
 
     
@@ -807,5 +815,14 @@
         flex-direction: column;       
         text-align: justify;     
         width: 100%;  
+    }
+
+    #menu-button{
+        transition: .5s;
+    }
+
+    #menu-button:hover{
+        rotate: 180deg;
+        
     }
 }
