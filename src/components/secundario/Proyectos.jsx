@@ -2,6 +2,7 @@ import playerZone from '../../../public/img/proyecto_playerZone.jpg'
 import encriptador from '../../../public/img/proyecto_encriptador.jpg'
 import cartas from '../../../public/img/proyecto_juegoCartas.jpg'
 import portfolio from '../../../public/img/proyecto_portfolio.jpg'
+import calculadora from '../../../public/img/proyecto_calculadora.jpg'
 
 
 
@@ -88,6 +89,22 @@ function Proyectos({clase}) {
                 tecnologia3={<Icono claseDiv='div_icono_proyecto' claseImg="icono_proyecto" icono={react} descripcion={'React'}/>}              
                 
                 />
+
+                <Proyecto 
+                claseImg='img_formacion' 
+                claseParrafo='parrafo_img_proyecto' 
+                imagen={calculadora} 
+                descripcion={'Calculadora'}
+                sobreProyecto={'Desarrollé una calculadora web interactiva utilizando React, JavaScript y mathjs. Permite realizar cálculos matemáticos precisos y cuenta con una interfaz intuitiva y funcional. ¡Una herramienta indispensable para cálculos rápidos!'}
+                linkPagina={'https://calculadora-manu.netlify.app/'}
+                linkGitHub={'https://github.com/rexdaro/calculator'}
+                tecnologia1={<Icono claseDiv='div_icono_proyecto' claseImg="icono_proyecto" icono={js} descripcion={'JavaScript'}/>}
+                tecnologia2={<Icono claseDiv='div_icono_proyecto' claseImg="icono_proyecto" icono={css3} descripcion={'CSS3'}/>}
+                tecnologia3={<Icono claseDiv='div_icono_proyecto' claseImg="icono_proyecto" icono={react} descripcion={'React'}/>}              
+                
+                />
+
+                
                 
             </div>
             
