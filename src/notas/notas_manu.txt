@@ -1,0 +1,26 @@
+--30/05/2023--
+
+practicamos:
+uso de hooks en react, un poco mas sobre el useContext,
+ademas arreglamos 100% la calculadora, la dejamos lista 
+para que cualquier persona la pudiese usar desde cualquier
+dispositivo.
+
+y hoy comenzamos esto de escribir nuestras metas.
+
+Metas:
+aprender mejor react en los proximos meses.
+aprender redux y next.
+aprender react native y hacer una app para ver los partidos y la tv online.
+aprender typescript
+y por ultimo y mas importante Conseguir empleo este año de programador.
+antes de mi cumpleaños si es posible conseguir nuestro primer empleo
+
+****las palabras moldean la mente para después convertirse 
+en pensamientos o acciones, son tan poderosas que a través 
+de ellas podemos crear o destruir, 
+por eso su correcto manejo es de suma importancia.!*****
+
+
+
+--31/05/2023--
