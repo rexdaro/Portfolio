@@ -23,4 +23,7 @@ por eso su correcto manejo es de suma importancia.!*****
 
 
 
---31/05/2023--
+--01/06/2023--
+
+Metas: aprender React y Redux. Tambien typescript y react native.
+conseguir trabajo este año
